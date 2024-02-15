@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Contact me</title>
+
+    <style>
+        header {
+            background-color: #9b64a0;
+            border-bottom: 4px solid #69398a;
+        }
+
+        header nav a {
+            color: #ffffff;
+            background-color: #6a3f83;
+            text-decoration: none;
+        }
+
+        header nav a:hover {
+            background-color: #808080;
+            text-decoration: underline;
+        }
+
+        header nav ul {
+            list-style: none;
+        }
+
+        footer {
+            background-color: #000000;
+            border: 5px solid #3e4544;
+            color: #ffffff;
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h1>Guillermo Gomez Sanchez</h1>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="cv.html">Curriculum Vitae</a></li>
+                <li><a href="about_me.html">Sobre mi</a></li>
+                <li><a href="contact.html">Contactame</a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <main>
+
+        <form>
+            <p><label for="name_form">Nombre: </label><input type="text" name="name" id="name_form" placeholder="Nombre y apellidos"></p>
+            <p><label for="email_form">E-mail:</label><input type="email" name="email" id="email_form" placeholder="Correo electronico"></p>
+            <p><input type="checkbox" name="bot" id="bot_form"><label for="bot_form">Eres un robot?</label></p>
+            <p><input type="submit" value="SEND"></p>
+
+            <p><label for="color_form">Color?: </label><input type="color" name="color" id="color_form"></p>
+            <p><label for="date_form">date?: </label><input type="date" name="date" id="date_form"></p>
+            <p><label for="msg_form">Mensaje: </label><textarea type="text" name="msg" id="msg_form" placeholder="Tu consulta" ></textarea></p>
+
+        </form>
+
+    </main>
+
+    <footer>
+        <p>Copyright (c) AndrewTate 2024</p>
+    </footer>
+</body>
+
+
+</html>
