@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Guillermo Gomez Sanchez - Página Personal</title>
+    <link rel="stylesheet" href="/CSS/style_game.css">
+</head>
+
+<body>
+    <header>
+        <h1>Guillermo Gomez Sanchez</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="cv.html">Curriculum Vitae</a></li>
+                <li><a href="about_me.html">Sobre mí</a></li>
+                <li><a href="contact.html">Contáctame</a></li>
+                <li><a href="samvale.html">Samvale</a></li>
+                <li><a href="login.html">Login/Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="game-container">
+            <h2>Adivina el número</h2>
+            <p>Introduce un número del 1 al 10:</p>
+            <form id="game-form">
+                <input type="number" id="user-input" placeholder="Introduce un número" required>
+                <button type="submit">Comprobar</button>
+            </form>
+            <p id="message"></p>
+            <p>Intentos fallidos: <span id="fail-count">0</span></p>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright (c) Guillermo Gomez Sanchez 2024</p>
+    </footer>
+    <script src="/JS/game.js"></script>
+</body>
+
+</html>

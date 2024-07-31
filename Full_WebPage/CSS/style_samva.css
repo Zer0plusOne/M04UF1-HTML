@@ -1,0 +1,56 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('imgs/background_samvalee.jpg'); /* SACADO DE: https://developer.mozilla.org/es/docs/Web/CSS/background-image */
+    color: #360e36;
+}
+
+h1, h2, h3, p {
+    margin: 0.5em 0;
+}
+
+header {
+    background-color: #ff6699;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 4px solid #cc3366;
+}
+
+
+header nav a {
+    color: #ffffff;
+    background-color: #cc3366;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+header nav a:hover {
+    background-color: #ff99cc;
+    text-decoration: underline;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+
+footer {
+    background-color: #360e36; 
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 5px solid #ff6699;
+}

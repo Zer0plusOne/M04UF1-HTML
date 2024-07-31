@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Guillermo Gomez Sanchez - Página Personal</title>
+    <link rel="stylesheet" href="/CSS/style_index.css">
+</head>
+
+<body>
+    <header>
+        <h1>Guillermo Gomez Sanchez</h1>
+        <nav>
+            <ul>
+                <li><a href="cv.html">Curriculum Vitae</a></li>
+                <li><a href="about_me.html">Sobre mí</a></li>
+                <li><a href="contact.html">Contáctame</a></li>
+                <li><a href="game.html">Minigame</a></li>
+                <li><a href="samvale.html">Samvale</a></li>
+                <li><a href="login.html">Login/Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="grid-container">
+            <section id="introduccion" class="grid-item">
+                <h2>Introducción</h2>
+                <p>Hola buenas, soy Guillermo Gómez Sánchez, estudiante del CFGS en administración de sistemas en red con perfil profesional en ciberseguridad de ENTI-UB</p>
+            </section>
+
+            <section id="sobre_mi" class="grid-item grid-item-main">
+                <h2>Sobre Mí</h2>
+                <p>Nací en Barcelona en 2004, lugar donde aún resido y llevo a cabo mis principales actividades que actualmente son mis estudios en ciberseguridad a través de ENTI-UB y mi desempeño como profesor de extraescolares en las escuelas Jaume Salvatella (Santa Coloma de Gramanet) y Ciencias (Badalona) impartiendo clases de karate Kyokushinkai a un aproximado de 40 alumnos totales.</p>
+                <p>Añadir que también ajeno a mis estudios y profesión que actualmente soy 2do Kyu de Karate Kyokushin en Dojo Karate Grama y dispongo del título de Árbitro Nacional en la federación "International Kyokushin Organization" (IKO 1). </p>
+                <p>Me gusta dedicar mis tiempos libres a la programación y el mundo de la seguridad informática donde intento mejorar mis habilidades día a día en todos los ámbitos, ya sea como Red Teamer (Pen-Tester) o Blue Teamer (Analítico Forense) en el ámbito de la ciberseguridad.</p>
+            </section>
+
+            <section id="educacion" class="grid-item">
+                <h2>Educación</h2>
+                <ul>
+                    <li>Educación Secundaria Obligatoria - Barres i Ones (2021-2023)</li>
+                    <li>Bachillerato Tecnológico - Barres i Ones (2021-2023)</li>
+                    <li>CFGS ASIX y Ciberseguridad - ENTI-UB (2023-2025)</li>
+                </ul>
+            </section>
+
+            <section id="experiencia" class="grid-item">
+                <h2>Experiencia</h2>
+                <ul>
+                    <li>Profesor de extraescolares de Karate Kyokushin - Ambit Escola S.L (2022-2024)</li>
+                    <li>Profesor de extraescolares de Karate Kyokushin - CEIP Luis Millet (2019-2022)</li>
+                </ul>
+            </section>
+
+            <section id="habilidades" class="grid-item">
+                <h2>Habilidades</h2>
+                <ul>
+                    <li>Karate Kyokushin</li>
+                    <li>Programación en varios lenguajes</li>
+                    <li>Trabajo en equipo y liderazgo</li>
+                    <li>Diseño Gráfico</li>
+                </ul>
+            </section>
+        </div>
+        <button class="scroll-button" onclick="scrollToBottom()">&#x25BC;</button>
+        <div class="hidden-section">
+            <section id="aficiones" class="grid-item">
+                <h2>Aficiones</h2>
+                <ul>
+                    <li>Karate Kyokushin</li>
+                    <li>Programación</li>
+                    <li>Dibujo</li>
+                    <li>Seguir el día a día del mundo informático (Ciberseguridad y Novedades generales)</li>
+                </ul>
+            </section>
+
+            <section id="proyectos" class="grid-item grid-item-main">
+                <h2>Proyectos</h2>
+                <p>Aquí puedes encontrar el proyecto en el que ando trabajando actualmente y mi repositorio encargado de almacenar la documentación de las máquinas de la web HackTheBox completadas:</p>
+                <ul>
+                    <li><a href="https://github.com/Zer0plusOne/DEDSEC.TOOL">DesdSec.Tool</a> - Proyecto multiuso para realizar varias acciones desde una única herramienta. Más información en la descripción del repositorio</li>
+                    <li><a href="https://github.com/Zer0plusOne/HTB-Machines">Máquinas HTB</a> - Repositorio encargado para mantener un récord de las máquinas de HackTheBox completadas y su documentación.</li>
+                </ul>
+            </section>
+
+            <section id="contacto" class="grid-item">
+                <h2>Contacto</h2>
+                <p>Puedes contactarme a través de las siguientes formas:</p>
+                <ul>
+                    <li>Email: guillermogom2004@gmail.com</li>
+                    <li>Twitter: <a href="https://x.com/ASteam_Zer0">@ASteam_Zer0</a></li>
+                    <li>GitHub: <a href="https://github.com/Zer0plusOne">Zer0plusOne</a></li>
+                    <li>Instagram: <a href="https://www.instagram.com/sanchez_g2k04/">@sanchez_g2k04</a></li>
+                    <li>LinkedIn: <a href="https://www.linkedin.com/in/guillermo-g%C3%B3mez-s%C3%A1nchez-54079629a/">Guillermo Gómez Sánchez</a></li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>Copyright (c) Guillermo Gomez Sanchez 2024</p>
+    </footer>
+    <script>
+        function scrollToBottom() {
+            document.querySelector('.hidden-section').style.display = 'block';
+            document.querySelector('.hidden-section').scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Iniciar Sesión / Registrarse</title>
+    <link rel="stylesheet" href="/CSS/style_login.css">
+</head>
+
+<body>
+    <header>
+        <h1>Guillermo Gomez Sanchez</h1>
+        <nav>
+            <ul>                
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="cv.html">Curriculum Vitae</a></li>
+                <li><a href="about_me.html">Sobre mí</a></li>
+                <li><a href="contact.html">Contáctame</a></li>
+                <li><a href="game.html">Minigame</a></li>
+                <li><a href="samvale.html">Samvale</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="login-signup-container">
+        <section class="login-form">
+            <h2>Login</h2>
+            <form>
+                <p><label for="login_form">Usuario:</label><input type="text" name="login" id="login_form" placeholder="Username"></p>
+                <p><label for="password_form">Contraseña:</label><input type="password" name="passwd" id="password_form" placeholder="Contraseña"></p>
+                <p><input type="checkbox" name="bot" id="bot_form"><label for="bot_form">¿Eres un robot?</label></p>
+                <p><input type="submit" value="Iniciar sesión"></p>
+            </form>
+        </section>
+        <section class="signup-prompt">
+            <p>¿No tienes una cuenta?</p>
+            <p>====></p>
+        </section>
+        <section class="signup-form">
+            <h2>Sign Up</h2>
+            <form id="signup-form">
+                <p><label for="signup_email">Email:</label><input type="email" name="signup_email" id="signup_email" placeholder="Correo electrónico"></p>
+                <p><label for="signup_username">Usuario:</label><input type="text" name="signup_username" id="signup_username" placeholder="Username"></p>
+                <p><label for="signup_password">Contraseña:</label><input type="password" name="signup_password" id="signup_password" placeholder="Contraseña"></p>
+                <p><label for="confirm_password">Confirmar Contraseña:</label><input type="password" name="confirm_password" id="confirm_password" placeholder="Confirmar Contraseña"></p>
+                <p><input type="submit" value="Registrarse"></p>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright (c) Guillermo Gomez Sanchez 2024</p>
+    </footer>
+    <script src="/JS/login.js"></script>
+</body>
+
+</html>

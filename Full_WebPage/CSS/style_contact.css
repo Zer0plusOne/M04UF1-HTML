@@ -1,0 +1,140 @@
+/* Ajustes de estilo del body */
+body {
+    font-family: 'Arial', sans-serif; /* Fuente de letra */
+    margin: 0; /* Margen izquierdo y derecho */
+    padding: 0; /* Margen arriba y abajo */
+    background-color: #f4f4f9; /* Fondo del body */
+    color: #333333; /* Color de letra */
+    display: flex; /* Flexbox */
+    flex-direction: column; /* Columnas */
+    align-items: center; /* Centrado horizontal */
+}
+
+/* Ajustes de estilo del header */
+header {
+    background-color: #ffffff; /* Fondo de la cabecera */
+    border-bottom: 4px solid #69398a; /* Detalle en morado */
+    padding: 20px 0; /* Espacio entre la cabecera y el contenido */
+    width: 100%; /* Ancho completo */
+    text-align: center; /* Texto centrado */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombreado */
+}
+
+
+header h1 {
+    color: #333333;
+    margin: 0; 
+}
+
+/* Ajustes de estilo del nav en el header */
+header nav ul {
+    list-style: none; /* Sin estilo de lista */
+    padding: 0; /* Sin padding */
+    margin: 10px 0; /* Margen arriba y abajo */
+    display: flex; /* Flexbox */
+    justify-content: center; /* Centrado horizontal */
+}
+
+header nav ul li {
+    margin: 0 15px; 
+}
+
+header nav a {
+    color: #69398a; /* Detalle en morado */
+    text-decoration: none; /* Sin subrayado */
+    padding: 5px 10px; /* Espacio entre el texto y el borde */
+    border: 1px solid transparent; /* Borde transparente */
+    transition: background-color 0.3s ease, border-color 0.3s ease, border-radius 0.3s ease; /* Transiciones suaves */
+}
+
+/* Ajustes de estilo para los hover en los enlaces del nav */
+header nav a:hover {
+    background-color: #e0e0e0; /* Fondo del link cuando se hace hover */
+    border-color: #69398a; /* Detalle en morado */
+    border-radius: 15px; /* Bordes redondeados */
+    text-decoration: underline; /* Texto subrayado */
+}
+
+/* Ajustes de estilo del main */
+main {
+    padding: 20px; /* Espaciado interno */
+    width: 90%; /* Ancho del main */
+    max-width: 800px; /* Ancho maximo */
+    margin: auto; /* Centrando el main */
+}
+
+
+h2 {
+    color: #69398a;
+}
+
+
+p {
+    line-height: 1.6;
+    margin: 15px 0;
+}
+
+/* Ajustes de estilo del form */
+form {
+    background-color: #ffffff; /* Fondo del formulario */
+    border: 1px solid #e0e0e0; /* Borde gris claro */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombreado */
+    padding: 20px; /* Espaciado interno */
+    width: 100%; /* Ancho del formulario */
+    max-width: 500px; /* Ancho maximo */
+    margin: auto; /* Centrando el formulario */
+}
+
+form p {
+    margin: 10px 0;
+}
+
+/* Ajustes de estilo de los labels del form */
+form label {
+    display: block; /* Bloque */
+    font-weight: bold; /* Texto en negrita */
+    margin-bottom: 5px; /* Margen abajo */
+}
+
+/* Ajustes de estilo de los inputs y textarea del form */
+form input[type="text"],
+form input[type="email"],
+form input[type="color"],
+form input[type="date"],
+form textarea {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espaciado interno */
+    margin-bottom: 10px; /* Margen abajo */
+    border: 1px solid #cccccc; /* Borde gris */
+    border-radius: 5px; /* Bordes redondeados */
+    box-sizing: border-box; /* Box-sizing */
+}
+
+/* Ajustes de estilo del input submit del form */
+form input[type="submit"] {
+    background-color: #69398a; /* Fondo morado */
+    color: #ffffff; /* Color de letra blanco */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor puntero */
+    transition: background-color 0.3s ease; /* Transiciones suaves */
+}
+
+/* Ajustes de estilo para el hover del input submit */
+form input[type="submit"]:hover {
+    background-color: #59297a; /* Fondo morado oscuro */
+}
+
+/* Ajustes de estilo del footer */
+footer {
+    background-color: #ffffff; /* Fondo del footer */
+    border-top: 4px solid #69398a; /* Detalle en morado */
+    color: #333333; /* Color de letra */
+    text-align: center; /* Texto centrado */
+    padding: 10px 0; /* Espaciado interno */
+    width: 100%; /* Ancho completo */
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Sombreado */
+    margin-top: 20px; /* Margen arriba */
+}

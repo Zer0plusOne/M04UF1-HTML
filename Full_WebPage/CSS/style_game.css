@@ -1,0 +1,96 @@
+/* Ajustes de estilo del body */
+body {
+    font-family: 'Arial', sans-serif; /* Fuente de letra */
+    margin: 0; /* Margen izquierdo y derecho */
+    padding: 0; /* Margen arriba y abajo */
+    background-color: #f4f4f9; /* Fondo del body */
+    color: #333333; /* Color de letra */
+    display: flex; /* Flexbox */
+    flex-direction: column; /* Columnas */
+    align-items: center; /* Centrado horizontal */
+}
+
+/* Ajustes de estilo del header */
+header {
+    background-color: #ffffff; /* Fondo de la cabecera */
+    border-bottom: 4px solid #69398a; /* Detalle en morado */
+    padding: 20px 0; /* Espacio entre la cabecera y el contenido */
+    width: 100%; /* Ancho completo */
+    text-align: center; /* Texto centrado */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombreado */
+}
+
+
+header h1 {
+    color: #333333;
+    margin: 0;
+}
+
+/* Ajustes de estilo del nav en el header */
+header nav ul {
+    list-style: none; /* Sin estilo de lista */
+    padding: 0; /* Sin padding */
+    margin: 10px 0; /* Margen arriba y abajo */
+    display: flex; /* Flexbox */
+    justify-content: center; /* Centrado horizontal */
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav a {
+    color: #69398a; /* Detalle en morado */
+    text-decoration: none; /* Sin subrayado */
+    padding: 5px 10px; /* Espacio entre el texto y el borde */
+    border: 1px solid transparent; /* Borde transparente */
+    transition: background-color 0.3s ease, border-color 0.3s ease, border-radius 0.3s ease; /* Transiciones suaves */
+}
+
+/* Ajustes de estilo para los hover en los enlaces del nav */
+header nav a:hover {
+    background-color: #e0e0e0; /* Fondo del link cuando se hace hover */
+    border-color: #69398a; /* Detalle en morado */
+    border-radius: 15px; /* Bordes redondeados */
+    text-decoration: underline; /* Texto subrayado */
+}
+
+
+main {
+    padding: 20px;
+    width: 90%;
+}
+
+/* Ajustes de estilo del contenedor del juego */
+.game-container {
+    background-color: #ffffff; /* Fondo del contenedor del juego */
+    border: 1px solid #e0e0e0; /* Borde gris claro */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombreado */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Texto centrado */
+    max-width: 400px; /* Ancho maximo */
+    margin: auto; /* Centrando el contenedor */
+}
+
+
+.game-container h2 {
+    color: #69398a;
+}
+
+/* Ajustes de estilo del mensaje */
+#message {
+    margin-top: 10px; /* Margen arriba */
+}
+
+/* Ajustes de estilo del footer */
+footer {
+    background-color: #ffffff; /* Fondo del footer */
+    border-top: 4px solid #69398a; /* Detalle en morado */
+    color: #333333; /* Color de letra */
+    text-align: center; /* Texto centrado */
+    padding: 10px 0; /* Espaciado interno */
+    width: 100%; /* Ancho completo */
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Sombreado */
+    margin-top: 20px; /* Margen arriba */
+}

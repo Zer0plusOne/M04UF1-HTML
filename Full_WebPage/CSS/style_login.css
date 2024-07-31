@@ -1,0 +1,154 @@
+/* Ajustes de estilo del body */
+body {
+    font-family: 'Arial', sans-serif; /* Fuente de letra */
+    margin: 0; /* Margen izquierdo y derecho */
+    padding: 0; /* Margen arriba y abajo */
+    background-color: #f4f4f9; /* Fondo del body */
+    color: #333333; /* Color de letra */
+    display: flex; /* Flexbox */
+    flex-direction: column; /* Columnas */
+    align-items: center; /* Centrado horizontal */
+}
+
+/* Ajustes de estilo del header */
+header {
+    background-color: #ffffff; /* Fondo de la cabecera */
+    border-bottom: 4px solid #69398a; /* Detalle en morado */
+    padding: 20px 0; /* Espacio entre la cabecera y el contenido */
+    width: 100%; /* Ancho completo */
+    text-align: center; /* Texto centrado */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombreado */
+}
+
+
+header h1 {
+    color: #333333;
+    margin: 0;
+}
+
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav a {
+    color: #69398a;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    transition: background-color 0.3s ease, border-color 0.3s ease, border-radius 0.3s ease;
+}
+
+/* Ajustes de estilo para los hover en los enlaces del nav */
+header nav a:hover {
+    background-color: #e0e0e0; /* Fondo del link cuando se hace hover */
+    border-color: #69398a; /* Detalle en morado */
+    border-radius: 15px; /* Bordes redondeados */
+    text-decoration: underline; /* Texto subrayado */
+}
+
+
+main {
+    padding: 20px;
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Ajustes de estilo del contenedor de login y signup */
+.login-signup-container {
+    display: flex; /* Flexbox */
+    justify-content: space-around; /* Espacio entre elementos */
+    align-items: center; /* Centrado vertical */
+    margin-top: 50px; /* Margen arriba */
+}
+
+/* Ajustes de estilo del formulario de login */
+.login-form,
+.signup-form {
+    background-color: #ffffff; /* Fondo blanco */
+    border: 1px solid #e0e0e0; /* Borde gris claro */
+    border-radius: 20px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombreado */
+    padding: 20px; /* Espaciado interno */
+    width: 300px; /* Ancho fijo */
+    text-align: center; /* Texto centrado */
+}
+
+/* Ajustes de estilo de los h2 en los formularios de login y signup */
+.login-form h2,
+.signup-form h2 {
+    color: #69398a; /* Detalle en morado */
+}
+
+/* Ajustes de estilo de los parrafos en los formularios de login y signup */
+.login-form form p,
+.signup-form form p {
+    margin: 15px 0; /* Margen arriba y abajo */
+}
+
+/* Ajustes de estilo de los labels en los formularios de login y signup */
+.login-form label,
+.signup-form label {
+    display: block; /* Bloque */
+    margin-bottom: 5px; /* Margen abajo */
+    font-weight: bold; /* Negrita */
+}
+
+/* Ajustes de estilo de los inputs en los formularios de login y signup */
+.login-form input[type="text"],
+.signup-form input[type="text"],
+.login-form input[type="password"],
+.signup-form input[type="password"],
+.signup-form input[type="email"] {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espaciado interno */
+    margin-bottom: 10px; /* Margen abajo */
+    border: 1px solid #cccccc; /* Borde gris */
+    border-radius: 5px; /* Bordes redondeados */
+    box-sizing: border-box; /* Box-sizing */
+}
+
+/* Ajustes de estilo de los botones submit en los formularios de login y signup */
+.login-form input[type="submit"],
+.signup-form input[type="submit"] {
+    background-color: #69398a; /* Fondo morado */
+    color: #ffffff; /* Color de letra blanco */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor puntero */
+    transition: background-color 0.3s ease; /* Transicion suave */
+}
+
+/* Ajustes de estilo para el hover de los botones submit en los formularios de login y signup */
+.login-form input[type="submit"]:hover,
+.signup-form input[type="submit"]:hover {
+    background-color: #59297a; /* Fondo morado oscuro */
+}
+
+
+.signup-prompt {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+/* Ajustes de estilo del footer */
+footer {
+    background-color: #ffffff; /* Fondo del footer */
+    border-top: 4px solid #69398a; /* Detalle en morado */
+    color: #333333; /* Color de letra */
+    text-align: center; /* Texto centrado */
+    padding: 10px 0; /* Espaciado interno */
+    width: 100%; /* Ancho completo */
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Sombreado */
+    margin-top: 20px; /* Margen arriba */
+}

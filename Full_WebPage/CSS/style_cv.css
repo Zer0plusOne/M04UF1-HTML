@@ -1,0 +1,184 @@
+/* Ajustes de estilo del body */
+body {
+    font-family: 'Arial', sans-serif; /* Fuente de letra */
+    margin: 0; /* Margen izquierdo y derecho */
+    padding: 0; /* Margen arriba y abajo */
+    background-color: #f4f4f9; /* Fondo del body */
+    color: #333333; /* Color de letra */
+    display: flex; /* Flexbox */
+    flex-direction: column; /* Columnas */
+    align-items: center; /* Centrado horizontal */
+}
+
+/* Ajustes de estilo del header */
+header {
+    background-color: #ffffff; /* Fondo de la cabecera */
+    border-bottom: 4px solid #69398a; /* Detalle en morado */
+    padding: 20px 0; /* Espacio entre la cabecera y el contenido */
+    width: 100%; /* Ancho completo */
+    text-align: center; /* Texto centrado */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombreado */
+}
+
+
+header h1 {
+    color: #333333;
+    margin: 0;
+}
+
+/* Ajustes de estilo del nav en el header */
+header nav ul {
+    list-style: none; /* Sin estilo de lista */
+    padding: 0; /* Sin padding */
+    margin: 10px 0; /* Margen arriba y abajo */
+    display: flex; /* Flexbox */
+    justify-content: center; /* Centrado horizontal */
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav a {
+    color: #69398a; /* Detalle en morado */
+    text-decoration: none; /* Sin subrayado */
+    padding: 5px 10px; /* Espacio entre el texto y el borde */
+    border: 1px solid transparent; /* Borde transparente */
+    transition: background-color 0.3s ease, border-color 0.3s ease, border-radius 0.3s ease; /* Transiciones suaves */
+}
+
+/* Ajustes de estilo para los hover en los enlaces del nav */
+header nav a:hover {
+    background-color: #e0e0e0; /* Fondo del link cuando se hace hover */
+    border-color: #69398a; /* Detalle en morado */
+    border-radius: 15px; /* Bordes redondeados */
+    text-decoration: underline; /* Texto subrayado */
+}
+
+/* Ajustes de estilo del contenedor principal */
+.container {
+    display: flex; /* Flexbox */
+    max-width: 1200px; /* Ancho maximo */
+    width: 100%; /* Ancho completo */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombreado */
+    margin: 20px auto; /* Centrando el contenedor */
+}
+
+/* Ajustes de estilo de la barra lateral */
+.sidebar {
+    background-color: #352544; /* Fondo de la barra lateral */
+    color: white; /* Color de letra blanco */
+    padding: 20px; /* Espaciado interno */
+    width: 300px; /* Ancho fijo */
+    box-sizing: border-box; /* Box-sizing */
+}
+
+/* Ajustes de estilo del h1 en la barra lateral */
+.sidebar h1 {
+    font-size: 24px; /* Tamaño de fuente */
+    margin: 0; /* Sin margen */
+}
+
+/* Ajustes de estilo de la imagen de perfil */
+.profile-pic {
+    width: 100%; /* Ancho completo */
+    border-radius: 50%; /* Bordes redondeados */
+    margin-top: 20px; /* Margen arriba */
+}
+
+/* Ajustes de estilo de las secciones de informacion */
+.contact-info, .skills, .software, .languages {
+    margin-top: 30px; /* Margen arriba */
+}
+
+/* Ajustes de estilo de los h2 en las secciones de informacion */
+.contact-info h2, .skills h2, .software h2, .languages h2 {
+    font-size: 18px; /* Tamaño de fuente */
+    border-bottom: 2px solid #ecf0f1; /* Linea debajo */
+    padding-bottom: 10px; /* Espaciado interno abajo */
+}
+
+/* Ajustes de estilo de los parrafos y listas en las secciones de informacion */
+.contact-info p, .skills ul, .software ul, .languages ul {
+    margin: 0; /* Sin margen */
+    padding: 0; /* Sin padding */
+    list-style: none; /* Sin estilo de lista */
+}
+
+/* Ajustes de estilo de los items de las listas en las secciones de informacion */
+.skills ul li, .software ul li, .languages ul li {
+    margin-top: 10px; /* Margen arriba */
+}
+
+/* Ajustes de estilo de las listas en software y languages */
+.software ul li, .languages ul li {
+    display: flex; /* Flexbox */
+    justify-content: space-between; /* Espacio entre los elementos */
+}
+
+/* Ajustes de estilo de los spans en software y languages */
+.software ul li span, .languages ul li span {
+    color: #e74c3c; /* Color rojo */
+}
+
+/* Ajustes de estilo del contenido principal */
+.content {
+    background-color: white; /* Fondo blanco */
+    padding: 20px; /* Espaciado interno */
+    flex: 1; /* Flexbox */
+    box-sizing: border-box; /* Box-sizing */
+}
+
+/* Ajustes de estilo de los h2 en el contenido principal */
+.content h2 {
+    font-size: 20px; /* Tamaño de fuente */
+    color: #2c3e50; /* Color de letra */
+    border-bottom: 2px solid #ecf0f1; /* Linea debajo */
+    padding-bottom: 10px; /* Espaciado interno abajo */
+    margin-top: 0; /* Sin margen arriba */
+}
+
+
+.content section {
+    margin-top: 20px;
+}
+
+/* Ajustes de estilo de los bloques de informacion */
+.job, .degree, .volunteer-work, .award {
+    margin-top: 20px; /* Margen arriba */
+}
+
+/* Ajustes de estilo de los h3 en los bloques de informacion */
+.job h3, .degree h3, .volunteer-work h3, .award h3 {
+    font-size: 18px; /* Tamaño de fuente */
+    color: #ac34db; /* Color morado */
+    margin: 0; /* Sin margen */
+}
+
+
+.job p, .degree p, .volunteer-work p, .award p {
+    margin: 5px 0;
+}
+
+/* Ajustes de estilo de las listas en job e informatics */
+.job ul, .informatics ul {
+    list-style: disc; /* Estilo de lista con discos */
+    padding-left: 20px; /* Padding izquierdo */
+    margin: 10px 0 0; /* Margen arriba */
+}
+
+
+.job ul li, .informatics ul li {
+    margin-bottom: 10px;
+}
+
+
+.informatics ul li a {
+    color: #3498db; 
+    text-decoration: none;
+}
+
+/* Ajustes de estilo para los hover en los enlaces de informatics */
+.informatics ul li a:hover {
+    text-decoration: underline; /* Texto subrayado */
+}

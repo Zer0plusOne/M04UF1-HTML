@@ -1,0 +1,191 @@
+/* Ajustes de estilo del body */
+body {
+    font-family: 'Arial', sans-serif; /* Fuente de letra */
+    margin: 0; /* Margen izquierdo y derecho */
+    padding: 0; /* Margen arriba y abajo */
+    background-color: #f4f4f9; /* Fondo del body */
+    color: #333333; /* Color de letra */
+    display: flex; /* Flexbox */
+    flex-direction: column; /* Columnas */
+    align-items: center; /* Centrado horizontal */
+}
+
+/* Ajustes de estilo del header */
+header {
+    background-color: #ffffff; /* Fondo de la cabecera */
+    border-bottom: 4px solid #69398a; /* Detalle en morado */
+    padding: 20px 0; /* Espacio entre la cabecera y el contenido */
+    width: 100%; /* Ancho completo */
+    text-align: center; /* Texto centrado */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombreado */
+}
+
+
+header h1 {
+    color: #333333;
+    margin: 0;
+}
+
+/* Ajustes de estilo del nav en el header */
+header nav ul {
+    list-style: none; /* Sin estilo de lista */
+    padding: 0; /* Sin padding */
+    margin: 10px 0; /* Margen arriba y abajo */
+    display: flex; /* Flexbox */
+    justify-content: center; /* Centrado horizontal */
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav a {
+    color: #69398a; /* Detalle en morado */
+    text-decoration: none; /* Sin subrayado */
+    padding: 5px 10px; /* Espacio entre el texto y el borde */
+    border: 1px solid transparent; /* Borde transparente */
+    transition: background-color 0.3s ease, border-color 0.3s ease, border-radius 0.3s ease; /* Transiciones suaves */
+}
+
+/* Ajustes de estilo para los hover en los enlaces del nav */
+header nav a:hover {
+    background-color: #e0e0e0; /* Fondo del link cuando se hace hover */
+    border-color: #69398a; /* Detalle en morado */
+    border-radius: 15px; /* Bordes redondeados */
+    text-decoration: underline; /* Texto subrayado */
+}
+
+
+main {
+    padding: 20px;
+    width: 90%;
+}
+
+/* Ajustes de estilo del contenedor de grid */
+.grid-container {
+    display: grid; /* Grid */
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+    grid-template-rows: repeat(2, auto); /* 2 filas */
+    grid-gap: 20px; /* Espacio entre los elementos */
+    justify-items: center; /* Centrado horizontal */
+    align-items: center; /* Centrado vertical */
+}
+
+/* Ajustes de estilo de los items del grid */
+.grid-item {
+    background-color: #ffffff; /* Fondo blanco */
+    border: 1px solid #e0e0e0; /* Borde gris claro */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombreado */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Texto centrado */
+    width: 90%; /* Ancho del item */
+    max-width: 250px; /* Ancho maximo */
+}
+
+/* Ajustes de estilo del item principal del grid */
+.grid-item-main {
+    grid-column: 2 / 3; /* Columna 2 a 3 */
+    grid-row: 1 / 3; /* Fila 1 a 3 */
+    width: 90%; /* Ancho del item */
+    max-width: 400px; /* Ancho maximo */
+}
+
+
+section h2 {
+    color: #69398a;
+    margin-top: 0;
+}
+
+
+section ul {
+    padding: 0;
+    list-style: none;
+}
+
+
+section ul li {
+    margin: 10px 0;
+}
+
+
+section p {
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+/* Ajustes de estilo del footer */
+footer {
+    background-color: #ffffff; /* Fondo del footer */
+    border-top: 4px solid #69398a; /* Detalle en morado */
+    color: #333333; /* Color de letra */
+    text-align: center; /* Texto centrado */
+    padding: 10px 0; /* Espaciado interno */
+    width: 100%; /* Ancho completo */
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Sombreado */
+    margin-top: 20px; /* Margen arriba */
+}
+
+/* Ajustes de estilo del boton de scroll */
+.scroll-button {
+    background-color: #69398a; /* Fondo morado */
+    color: #ffffff; /* Color de letra blanco */
+    border: none; /* Sin borde */
+    border-radius: 50%; /* Bordes redondeados */
+    padding: 10px; /* Espaciado interno */
+    cursor: pointer; /* Cursor puntero */
+    margin: 20px auto; /* Centra el boton */
+    display: block; /* Asegura que el boton se comporte como un bloque */
+    transition: background-color 0.3s ease; /* Transiciones suaves */
+}
+
+/* Ajustes de estilo para el hover del boton de scroll */
+.scroll-button:hover {
+    background-color: #59297a; /* Fondo morado oscuro */
+}
+
+/* Ajustes de estilo de la seccion oculta */
+.hidden-section {
+    display: none; /* No mostrar */
+    margin-top: 20px; /* Margen arriba */
+    width: 100%; /* Ancho completo */
+}
+
+/* Ajustes de estilo del contenedor de grid en la seccion oculta */
+.hidden-section .grid-container {
+    display: grid; /* Grid */
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+    grid-gap: 20px; /* Espacio entre los elementos */
+    justify-items: center; /* Centrado horizontal */
+    align-items: start; /* Alinea los elementos al principio de la columna */
+}
+
+/* Ajustes de estilo de los items del grid en la seccion oculta */
+.hidden-section .grid-item {
+    background-color: #ffffff; /* Fondo blanco */
+    border: 1px solid #e0e0e0; /* Borde gris claro */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombreado */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Texto centrado */
+    width: 90%; /* Ancho del item */
+    max-width: 250px; /* Ancho maximo */
+}
+
+/* LOS AJUSTES DE ABAJO NO ME FUNCINOAN COMO INTERPRETO QUE DEBERIAN */
+
+
+/* Ajustes de estilo del primer item en la seccion oculta */
+.hidden-section .grid-item:nth-child(1) {
+    grid-column: 1 / 2; /* Columna 1 a 2 */
+}
+
+/* Ajustes de estilo del segundo item en la seccion oculta */
+.hidden-section .grid-item:nth-child(2) {
+    grid-column: 2 / 3; /* Columna 2 a 3 */
+}
+
+/* Ajustes de estilo del tercer item en la seccion oculta */
+.hidden-section .grid-item:nth-child(3) {
+    grid-column: 3 / 4; /* Columna 3 a 4 */
+}
